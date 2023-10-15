@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="Regpagelink.php">
+    <table border="5px" align="center" width="50%" cellspacing="5px" cellpading="2px" height="60%">
+<tr><td colspan="2" align="center">Registration Form</td></tr>
+<tr><td>Name</td><td><input name="nvm" placeholder="Enter Your Name"></td></tr>
+<tr><td>Password</td><td><input name="pwd" type="password" placeholder="Hint is Year"></td></tr>
+<tr><td>Email</td><td><input name="email" type="email" placeholder="@gmail.com"></td></tr>
+<tr><td>D.O.B</td><td><input name="date" type="date"></td></tr>
+<tr><td>Gender</td><td><input type="radio" name="Gender" value="Male">Male <input type="radio" name="Gender" value="Female">Female </td></tr>
+<tr><td>University Name</td><td><input name="uvi" type="text" List="My List"><datalist id="My List">
+    <option>Medicaps University</option>
+    <option>Lovely Professional University</option>
+    <option>Indian Institute of Technology</option>
+    <option>National Institute of Technology</option>
+    <option>Birla Institute of Technology</option>
+    <option>Vellore Institute of Technoloy</option>
+</datalist></td></tr>
+<tr><td>Course</td>
+    <td>
+        <select name="cou">
+            <option disabled selected>Select</option>
+            <optgroup label="Tech">
+            <option>B tech</option>
+            <option>M tech</option>
+        </optgroup><optgroup label="Management">
+            <option>BBA</option>
+            <option>MBA</option>
+        </optgroup><optgroup label="Commerce">
+            <option>B.com</option>
+            <option>M.com</option>
+        </optgroup>
+        </select>
+    </td></tr>
+<tr><td>Hobbies</td><td><input type="checkbox" name="ch1[]" value="Playing">Playing<input type="checkbox" name="ch1[]" value="Dancing">Dancing
+<input type="checkbox" name="ch1[]" value="Singing">Singing<input type="checkbox" name="ch1[]" value="Vollyball">Vollyball</td></tr>
+<tr><td>Address</td><td><textarea></textarea></td></tr>
+<tr><td>CGPI</td><td><input name="cg" type="number" min="0" max="10" step=".1"></td></tr>
+<tr><td>Linkdin Profile</td><td><input type="url"></td></tr>
+<tr><td>Upload CV</td><td><input type="file"></td></tr>
+<tr><td colspan="2" align="center"><input type="submit" name="sub"></td></tr>
+<tr><td colspan="2" align="center"><input type="reset"></td></tr>
+<caption>Do Register</caption>
+    </table>
+    
+</form>
+</body>
+</html>
